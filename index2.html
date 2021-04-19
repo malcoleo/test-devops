@@ -1,0 +1,97 @@
+<!-- Anuflora Systems  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Cashflow</title>
+  </head>
+  <body>
+    <nav
+    class="navbar sticky-top navbar-expand-sm navbar-dark"
+    style="background-color: #20c3af"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NUSMoney</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"
+              >Overview</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Cashflow</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stocks</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+      <h4>Your Balance</h4>
+      <h1 id="balance">$0.00</h1>
+
+      <div class="inc-exp-container">
+        <div>
+          <h4>Income</h4>
+          <p id="Income" class="money plus">+$0.00</p>
+        </div>
+        <div>
+          <h4>Expense</h4>
+          <p id="Expense" class="money minus">-$0.00</p>
+        </div>
+      </div>
+
+      <h3>History</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          Cash <span>-$400</span><button class="delete-btn">x</button>
+        </li> -->
+      </ul>
+
+      <p id="reco" class="blinking"></p>
+        
+      <h3>Add new transaction</h3>
+      <form id="form">
+        <div class="form-control1">
+          <label for="type"><bold>Text</bold></label>    
+          <input type="text" id="type_input" placeholder="Enter text..." />
+        </div>
+        <div class="form-control2">
+          <label for="amount"><bold>Amount<br>(Negative - expense, Positive - income)</bold></label>    
+          <input type="text" id="amount_input" placeholder="Enter amount..." />
+        </div>
+        <button class="btn" onclick="updatetransaction()">Add Transaction</button>
+
+       
+      </form>
+    
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
