@@ -47,5 +47,8 @@ git remote add origin "git@github.com:malcoleo/test-devops.git"
 <br> We can pull remote online github repository to the local repository via the following command</br>
 git pull origin master
 
-<br> We can push local repository to remote online github repositoryvia the following command</br>
+<br> We can push local repository to remote online github repository via the following command</br>
 git push origin master
+
+<br>Log can be pulled via the following command</br>
+git log
