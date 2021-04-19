@@ -3,9 +3,9 @@
 Before that,  we need to ensure that there is any SSH</br>
 https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
 
-If there is no existing ssh-key, click on the link below for the documentation on how to make new ssh-keys
+<br>If there is no existing ssh-key, click on the link below for the documentation on how to make new ssh-keys</br>
 https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-Follow the below link for adding the ssh key into the github account
+<br>Follow the below link for adding the ssh key into the github account</br>
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
