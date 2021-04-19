@@ -1,4 +1,4 @@
-<h1>Using Github commandto update</h1>
+<h1>Using Github command to update</h1>
 
 <h2>Prerequisite</h2>
 <h3>SSH keys</h3>
@@ -41,4 +41,11 @@ git status
 git commit  -m "sentence that you want to type"
 
 <br> We can add remote online github repository to the local repository via the following command</br>
+Using this repository as an example
 git remote add origin "git@github.com:malcoleo/test-devops.git"
+
+<br> We can pull remote online github repository to the local repository via the following command</br>
+git pull origin master
+
+<br> We can push local repository to remote online github repositoryvia the following command</br>
+git push origin master
