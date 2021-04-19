@@ -28,8 +28,11 @@ git --verion
 <br> First go to the folder that you want to make repository and create a git repository via the following command</br>
 git init
 
-<br>We can add the files that we want to upload via the following command</br>
+<br>We can add the file that we want to upload via the following command</br>
 git add name_of_file.extension
+
+<br>We can add all the files that we want to upload via the following command</br>
+git add -A
 
 <br>We can use the following command to know what are the files that we need to commint</br>
 git status
