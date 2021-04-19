@@ -52,3 +52,7 @@ git push origin master
 
 <br>Log can be pulled via the following command</br>
 git log
+
+
+
+All the document was in the master branch
